@@ -25,8 +25,8 @@ const FeaturedCourses = () => {
     const featuredCourses = data.courses.filter((course:Course)=>course.isFeatured)
 
     return (
-        <div className='bg-gray-900 p-10'>
-            <div>
+        <div className='bg-gray-900 p-10 pb-20'>
+            <div className='h-fit'>
                 <div className="text-center text-4xl font-bold text-red-700 text-opacity-80">FEATURED COURSES</div>
                 <p className="text-center text-xl font-medium text-blue-400 text-opacity-80">Learn from the best teachers in the world</p>
             </div>
