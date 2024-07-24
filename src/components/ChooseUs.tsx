@@ -53,7 +53,7 @@ const ChooseUs = () => {
 
 
     return (
-        <div className="pb-4">
+        <div className="">
             <StickyScroll content={musicAcademyContent} />
         </div>
     )
