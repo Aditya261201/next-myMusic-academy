@@ -1,6 +1,7 @@
 import ChooseUs from "@/components/ChooseUs";
 import ConnectInstructors from "@/components/ConnectInstructors";
 import FeaturedCourses from "@/components/FeaturedCourses";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Testimonials from "@/components/Testimonials";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
@@ -13,7 +14,8 @@ export default function Home() {
       <ChooseUs />
       <Testimonials />
       <UpcomingWebinars />
-      <ConnectInstructors />
+      {/* <ConnectInstructors /> */}
+      <Footer />
     </main>
   );
 }
