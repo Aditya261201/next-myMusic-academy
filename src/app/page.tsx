@@ -14,7 +14,7 @@ export default function Home() {
       <ChooseUs />
       <Testimonials />
       <UpcomingWebinars />
-      {/* <ConnectInstructors /> */}
+      <ConnectInstructors />
       <Footer />
     </main>
   );
