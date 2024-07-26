@@ -7,7 +7,7 @@ import Link from "next/link";
 
 import courseData from "@/data/musicCourses.json"
 
-const page = () => {
+const Page = () => {
     return (
         <div className="min-h-screen bg-black py-12 pt-36">
             <h1 className="text-center text-7xl">ALL COURSES{`(${courseData.courses.length})`}</h1>
@@ -61,4 +61,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
